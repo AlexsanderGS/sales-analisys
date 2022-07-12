@@ -1,0 +1,99 @@
+.sales-analysis-card {
+    background-color: #283142;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.sales-analysis-title {
+    color: #676FFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sales-analysis-form-control-container {
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.sales-analysis-form-control {
+    width: 100%;
+    height: 46px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    color: #9AAABE;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.sales-analysis-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.sales-analysis-table thead {
+    height: 55px;
+    font-size: 16px;
+    color: #E9E9E9;
+    font-weight: 700;
+}
+
+.sales-analysis-table tbody {
+    font-size: 14px;
+    font-weight: 400;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.sales-analysis-table tr {
+    height: 74px;
+    border-top: 1 px solid #5F6E82;
+
+}
+
+.sales-analysis-table tbody tr:hover>td {
+    background-color: #384459;
+}
+
+.sales-analysis-table tbody tr:nth-child(odd) {
+    background-color: #242c3b
+}
+
+.sales-analysis-red-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.show576 {
+    display: none;
+
+}
+
+@media (min-width: 576px) {
+    .show576 {
+        display: table-cell;
+    }
+
+    .sales-analysis-card {
+        padding: 35px;
+    }
+
+    .sales-analysis-table tr {
+        height: 55px;
+    }
+
+    .sales-analysis-table tbody {
+        font-size: 18px;
+    }
+}
+
+.show992 {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .show992 {
+        display: table-cell;
+    }
+}
