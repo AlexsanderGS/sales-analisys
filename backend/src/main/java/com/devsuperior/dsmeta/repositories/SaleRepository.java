@@ -15,4 +15,3 @@ public interface SaleRepository extends JpaRepository<Sale, Long> {
 	Page<Sale> findSales(LocalDate min, LocalDate max, Pageable pageable);
 
 }
-

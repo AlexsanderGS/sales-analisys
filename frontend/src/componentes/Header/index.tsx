@@ -10,7 +10,7 @@ function Header() {
                     <h1>Sales Analysis</h1>
                     <p>
                         Desenvolvido por
-                        <a href="https://github.com/AlexsanderGS">github.com/AlexsanderGS</a>
+                        <a href=" https://github.com/AlexsanderGS"> github.com/AlexsanderGS</a>
                     </p>
             </div>
         </header>
